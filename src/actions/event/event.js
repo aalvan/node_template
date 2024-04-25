@@ -39,7 +39,6 @@ exports.getIncidents = (eventData, timeDiff) => {
     const incident_response = {
         incident_id: Math.random(),
         incidents:git
-
     }*/
     //incidents.data.push()
 
