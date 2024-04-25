@@ -1,5 +1,5 @@
 let events = []
-const incidents = []
+const incidents = {data:[]}
 exports.getEvents = () => {
     return events
 }
@@ -35,6 +35,14 @@ exports.getIncidents = (eventData, timeDiff) => {
             response.push(element)
         }
     })
+    /*
+    const incident_response = {
+        incident_id: Math.random(),
+        incidents:git
+
+    }*/
+    //incidents.data.push()
+
     return response
 }
 
